@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-        <title>{{ $title ?? 'Page Title' }}</title>
+        <title>{{ $title ?? 'Franck Rentals' }}</title>
         @vite(['resources/css/app.css','resources/css/styles.css','resources/js/app.js' ,'resources/js/main.js'])
         @livewireStyles
     </head>
@@ -21,6 +21,9 @@
     {{ $slot }}
     </main>
     @livewire('partials.footer')
+    @livewireScripts      
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <x-livewire-alert::scripts />
     </body>
     
     <script src="https://unpkg.com/scrollreveal"></script>

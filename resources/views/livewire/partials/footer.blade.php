@@ -5,7 +5,7 @@
           <div class="footer__logo">
             <a href="#" class="logo">
               <img src="{{url('assets/logo-white.png')}}" alt="logo" />
-              <span>Franck Rental</span>
+              <span>Franck</span>
             </a>
           </div>
           <p>
@@ -15,9 +15,9 @@
           </p>
           <ul class="footer__socials">
             <li>
-              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61570344325893" target="_blank"><i class="ri-facebook-fill"></i></a>
             </li>
-            <li>
+            <!-- <li>
               <a href="#"><i class="ri-twitter-fill"></i></a>
             </li>
             <li>
@@ -28,10 +28,10 @@
             </li>
             <li>
               <a href="#"><i class="ri-youtube-fill"></i></a>
-            </li>
+            </li> -->
           </ul>
         </div>
-        <div class="footer__col">
+        <!-- <div class="footer__col">
           <h4>Our Services</h4>
           <ul class="footer__links">
             <li><a href="#home">Home</a></li>
@@ -40,15 +40,15 @@
             <li><a href="#choose">Why Choose Us</a></li>
             <li><a href="#client">Testimonials</a></li>
           </ul>
-        </div>
+        </div> -->
         <div class="footer__col">
           <h4>Vehicle Model</h4>
           <ul class="footer__links">
-            <li><a href="#">Toyota Corolla</a></li>
-            <li><a href="#">Toyota Noah</a></li>
-            <li><a href="#">Toyota Allion</a></li>
+            <li><a href="https://www.mitsubishicars.com/cars-and-suvs/mirage-g4/specs" target="_blank" >Mitsubishi Mirage G4</a></li>
+            <li><a href="https://www.changan.ph/alsvin/" target="_blank">Changan Alsvin</a></li>
+            <!-- <li><a href="#">Toyota Allion</a></li>
             <li><a href="#">Toyota Premio</a></li>
-            <li><a href="#">Mistubishi Pajero</a></li>
+            <li><a href="#">Mistubishi Pajero</a></li> -->
           </ul>
         </div>
         <div class="footer__col">
@@ -56,18 +56,18 @@
           <ul class="footer__links">
             <li>
               <a href="#">
-                <span><i class="ri-phone-fill"></i></span> +91 0987654321
+                <span><i class="ri-phone-fill"></i></span> +63 9927270042
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="ri-map-pin-fill"></i></span> Gen. Trias, Cavite
+                <span><i class="ri-map-pin-fill"></i></span> Manila - Cavite
               </a>
             </li>
-            <li>
+            <li style="width: 300px;">
               <a href="#">
-                <span><i class="ri-mail-fill"></i></span>
-                franckautomobilerental@gmail.com
+                <span ><i class="ri-mail-fill"></i></span>franckautomobilerental@gmail.com
+                
               </a>
             </li>
           </ul>

@@ -1,12 +1,12 @@
 <div>
     <header>
-      <div class="header__container" id="home">
+      <div class="header__container" id="home" >
         <div class="header__image">
-          <img src="{{url('assets/mirage.png')}}" alt="header" />
+          <img style="border-radius:10px; position:absolute" src="{{url('assets/new.png')}}" alt="header" >
         </div>
         <div class="header__content">
           <h2>👍 100% Trusted car rental platform in Philippines</h2>
-          <h1>FAST AND EASY WAY TO RENT A CAR</h1>
+          <h1>Franck Automobile Rental Services</h1>
           <p class="section__description">
             Discover a seamless car rental experience with us. Choose from a
             range of premium vehicles to suit your style and needs, and hit the
@@ -17,7 +17,7 @@
       </div>
     </header>
 
-    <section class="header__form">
+    <!-- <section class="header__form">
       <form action="/">
         <div class="input__group">
           <label for="location">Pick up & Return location</label>
@@ -48,7 +48,7 @@
         </div>
         <button class="btn">Search <i class="ri-search-line"></i></button>
       </form>
-    </section>
+    </section> -->
 
     <section class="section__container about__container" id="about">
       <h2 class="section__header">How it work</h2>
@@ -94,11 +94,11 @@
           incredible rate!
         </p>
         <div class="deals__tabs">
-          <button class="btn active" data-id="Tesla">Mirage</button>
-          <button class="btn" data-id="Mitsubishi">Mitsubishi</button>
-          <button class="btn" data-id="Mazda">Mazda</button>
+          <button class="btn active" data-id="Tesla" style="width: 200px;">Mitusbishi Mirage G4</button>
+          <button class="btn" data-id="Mitsubishi" style="width: 200px;">Changan Alsvin</button>
+          <!-- <button class="btn" data-id="Mazda">Mazda</button>
           <button class="btn" data-id="Toyota">Toyota</button>
-          <button class="btn" data-id="Honda">Honda</button>
+          <button class="btn" data-id="Honda">Honda</button> -->
         </div>
         <div id="Tesla" class="tab__content active">
 
@@ -115,6 +115,40 @@
             <h4>Mirage G4</h4>
             <div class="deals__card__grid">
               <div>
+                <span><i class="ri-group-line"></i></span> 5 People
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Automatic
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> Sedan
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Gasoline
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>₱1499<span>/Start rate</span></h3>
+              <a href="#">
+                Rent Now
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img style="border-radius:10px; max-height: 400px;" src="{{url('assets/inside.jpg')}}" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span>(450)</span>
+            </div>
+            <h4>Inside</h4>
+            <!-- <div class="deals__card__grid">
+              <div>
                 <span><i class="ri-group-line"></i></span> 4 People
               </div>
               <div>
@@ -126,54 +160,89 @@
               <div>
                 <span><i class="ri-car-line"></i></span> Gasoline
               </div>
-            </div>
+            </div> -->
             <hr />
-            <div class="deals__card__footer">
+            <!-- <div class="deals__card__footer">
               <h3>₱999<span>/Per Day</span></h3>
               <a href="#">
                 Rent Now
                 <span><i class="ri-arrow-right-line"></i></span>
               </a>
-            </div>
+            </div> -->
           </div>
           <div class="deals__card">
-            <img src="{{url('assets/deals-3.png')}}" alt="deals" />
+            <img style="padding-top:100px; padding-bottom:85px" src="{{url('assets/back.png')}}" alt="deals" />
             <div class="deals__rating">
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-line"></i></span>
-              <span>(550)</span>
+              <span><i class="ri-star-fill"></i></span>
+              <span>(450)</span>
             </div>
-            <h4>Tesla Model Y</h4>
-            <div class="deals__card__grid">
+            <h4>Back</h4>
+            <!-- <div class="deals__card__grid">
               <div>
                 <span><i class="ri-group-line"></i></span> 4 People
               </div>
               <div>
-                <span><i class="ri-steering-2-line"></i></span> Autopilot
+                <span><i class="ri-steering-2-line"></i></span> Automatic
               </div>
               <div>
                 <span><i class="ri-speed-up-line"></i></span> 400km
               </div>
               <div>
-                <span><i class="ri-car-line"></i></span> Electric
+                <span><i class="ri-car-line"></i></span> Gasoline
+              </div>
+            </div> -->
+            <hr />
+            <!-- <div class="deals__card__footer">
+              <h3>₱999<span>/Per Day</span></h3>
+              <a href="#">
+                Rent Now
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div> -->
+          </div>
+          
+        </div>
+        <div id="Mitsubishi" class="tab__content">
+          <div class="deals__card">
+            <img src="{{url('assets/changan.png')}}" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span>(350)</span>
+            </div>
+            <h4>Changan Alsvin</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 5 People
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manual
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span>Sedan
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Gasoline
               </div>
             </div>
             <hr />
             <div class="deals__card__footer">
-              <h3>$200<span>/Per Day</span></h3>
+              <h3>₱1499<span>/Start rate</span></h3>
               <a href="#">
                 Rent Now
                 <span><i class="ri-arrow-right-line"></i></span>
               </a>
             </div>
           </div>
-        </div>
-        <div id="Mitsubishi" class="tab__content">
           <div class="deals__card">
-            <img src="{{url('assets/deals-4.png')}}" alt="deals" />
+            <img style="max-height:400px" src="{{url('assets/inside-alsvin.jpg')}}" alt="deals" />
             <div class="deals__rating">
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-fill"></i></span>
@@ -182,8 +251,8 @@
               <span><i class="ri-star-line"></i></span>
               <span>(350)</span>
             </div>
-            <h4>Mirage</h4>
-            <div class="deals__card__grid">
+            <h4>Inside</h4>
+            <!-- <div class="deals__card__grid">
               <div>
                 <span><i class="ri-group-line"></i></span> 4 People
               </div>
@@ -199,25 +268,25 @@
             </div>
             <hr />
             <div class="deals__card__footer">
-              <h3>$120<span>/Per Day</span></h3>
+              <h3>₱999<span>/Per Day</span></h3>
               <a href="#">
                 Rent Now
                 <span><i class="ri-arrow-right-line"></i></span>
               </a>
-            </div>
+            </div> -->
           </div>
           <div class="deals__card">
-            <img src="{{url('assets/deals-5.png')}}" alt="deals" />
+            <img style="padding-top:100px; padding-bottom:85px" src="{{url('assets/back-alsvin.png')}}" alt="deals" />
             <div class="deals__rating">
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-fill"></i></span>
               <span><i class="ri-star-line"></i></span>
-              <span>(250)</span>
+              <span>(350)</span>
             </div>
-            <h4>Xpander</h4>
-            <div class="deals__card__grid">
+            <h4>Back</h4>
+            <!-- <div class="deals__card__grid">
               <div>
                 <span><i class="ri-group-line"></i></span> 4 People
               </div>
@@ -233,47 +302,14 @@
             </div>
             <hr />
             <div class="deals__card__footer">
-              <h3>$150<span>/Per Day</span></h3>
+              <h3>₱999<span>/Per Day</span></h3>
               <a href="#">
                 Rent Now
                 <span><i class="ri-arrow-right-line"></i></span>
               </a>
-            </div>
+            </div> -->
           </div>
-          <div class="deals__card">
-            <img src="{{url('assets/deals-6.png')}}" alt="deals" />
-            <div class="deals__rating">
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-line"></i></span>
-              <span>(150)</span>
-            </div>
-            <h4>Pajero Sports</h4>
-            <div class="deals__card__grid">
-              <div>
-                <span><i class="ri-group-line"></i></span> 4 People
-              </div>
-              <div>
-                <span><i class="ri-steering-2-line"></i></span> Manual
-              </div>
-              <div>
-                <span><i class="ri-speed-up-line"></i></span> 18km/l
-              </div>
-              <div>
-                <span><i class="ri-car-line"></i></span> Diesel
-              </div>
-            </div>
-            <hr />
-            <div class="deals__card__footer">
-              <h3>$180<span>/Per Day</span></h3>
-              <a href="#">
-                Rent Now
-                <span><i class="ri-arrow-right-line"></i></span>
-              </a>
-            </div>
-          </div>
+          
         </div>
         <div id="Mazda" class="tab__content">
           <div class="deals__card">
@@ -592,7 +628,7 @@
 
     <section class="choose__container" id="choose">
       <div class="choose__image">
-        <img src="{{url('assets/choose.png')}}" alt="choose" />
+        <img style="border-radius:10px; margin:10px;margin-bottom:20px" src="{{url('assets/changan-alsvin.jpg')}}" alt="choose" />
       </div>
       <div class="choose__content">
         <h2 class="section__header">Why choose us</h2>
@@ -626,13 +662,13 @@
               <p>Enjoy competitive rates and great value for every rental.</p>
             </div>
           </div>
-          <div class="choose__card">
+          <!-- <div class="choose__card">
             <span><i class="ri-user-star-line"></i></span>
             <div>
               <h4>Experience Driver</h4>
               <p>Reliable, professional drivers available upon request.</p>
             </div>
-          </div>
+          </div> -->
           <div class="choose__card">
             <span><i class="ri-verified-badge-line"></i></span>
             <div>
@@ -640,48 +676,47 @@
               <p>Choose from trusted and well-maintained car brands.</p>
             </div>
           </div>
-          <div class="choose__card">
+          <!-- <div class="choose__card">
             <span><i class="ri-calendar-close-line"></i></span>
             <div>
               <h4>Free Cancellations</h4>
               <p>Flexible bookings with free cancellation options.</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <section class="subscribe__container">
       <div class="subscribe__image">
-        <img src="{{url('assets/subscribe.png')}}" alt="subscribe" />
+        <img style="border-radius:10px; margin:10px;margin-bottom:20px" src="{{url('assets/mirage-g4.png')}}" alt="subscribe" />
       </div>
       <div class="subscribe__content">
         <h2 class="section__header">
-          Subscribe for the latest car rental updates
+          Setup a call back for reservation
         </h2>
-        <p class="section__description">
-          Stay in the know! Subscribe to receive the latest car rental deals,
-          exclusive offers, and updates right to your inbox. Don't miss out on
-          special promotions and the newest additions to our fleet.
-        </p>
-        <form action="/">
-          <input type="text" placeholder="Your Email" />
-          <button class="btn">Subscribe</button>
-        </form>
+        <!-- <p class="section__description" style="color: black;">
+         Facebook Page:  
+        </p> -->
+        <button></button>
+  
+          <input type="text" placeholder="Franck Automobile Rental Services" />
+          <button class="btn"><a href="https://www.facebook.com/profile.php?id=61570344325893" target="_blank">Click here!</a></button>
+        
       </div>
     </section>
 
-    <section class="section__container client__container" id="client">
+    <!-- <section class="section__container client__container" id="client">
       <h2 class="section__header">What people say about us?</h2>
       <p class="section__description">
         Discover why our customers love renting with us! Read real reviews and
         testimonials to see how we deliver exceptional service.
       </p>
-      <!-- Slider main container -->
+    
       <div class="swiper">
-        <!-- Additional required wrapper -->
+     
         <div class="swiper-wrapper">
-          <!-- Slides -->
+    
           <div class="swiper-slide">
             <div class="client__card">
               <div class="client__details">
@@ -794,7 +829,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 </div>
    
 
